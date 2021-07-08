@@ -18,6 +18,12 @@ int main(){
    }
 
    printf("Heads: %d, Tails: %d\n", heads, tails);
+   
+   if(heads=2){
+     printf("You won!\n");
+   } else {
+     printf("You lost!");
+   }
 
    return 0;
 }
